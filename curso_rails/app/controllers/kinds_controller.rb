@@ -3,8 +3,9 @@ class KindsController < ApplicationController
 
   # GET /kinds
   # GET /kinds.json
-  def index
-    @kinds = Kind.all
+  def index # há um view -> com arquivo index
+    @meu_nome = "thiago balbino"
+    @kinds = Kind.all #SELECT "kinds".* FROM "kinds"
   end
 
   # GET /kinds/1
