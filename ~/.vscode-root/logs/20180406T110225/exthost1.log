@@ -1,0 +1,16 @@
+[2018-04-06 11:02:34.028] [exthost1] [info] extension host started
+[2018-04-06 11:02:34.057] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-04-06 11:02:34.057] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-04-06 11:02:34.846] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-04-06 11:02:34.846] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-04-06 11:02:35.144] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-04-06 11:02:35.144] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-04-06 11:02:35.187] [exthost1] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"activationEvent":"*"}
+[2018-04-06 11:02:35.187] [exthost1] [info] ExtensionService#loadCommonJSModule /home/crescer/.vscode/extensions/CoenraadS.bracket-pair-colorizer-1.0.27/out/src/extension
+[2018-04-06 11:02:35.255] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2018-04-06 11:02:35.255] [exthost1] [info] ExtensionService#loadCommonJSModule /home/crescer/.vscode/extensions/Zignd.html-css-class-completion-1.17.1/out/src/extension
+[2018-04-06 11:02:36.227] [exthost1] [info] ExtensionService#_doActivateExtension alefragnani.Bookmarks {"startup":true,"activationEvent":"*"}
+[2018-04-06 11:02:36.227] [exthost1] [info] ExtensionService#loadCommonJSModule /home/crescer/.vscode/extensions/alefragnani.bookmarks-0.18.2/out/src/extension
+[2018-04-06 11:02:36.257] [exthost1] [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow {"startup":true,"activationEvent":"*"}
+[2018-04-06 11:02:36.257] [exthost1] [info] ExtensionService#loadCommonJSModule /home/crescer/.vscode/extensions/oderwat.indent-rainbow-0.7.2/out/extension
+[2018-04-06 11:02:36.275] [exthost1] [info] eager extensions activated

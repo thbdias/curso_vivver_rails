@@ -1,0 +1,6 @@
+.routes
+  .localhost:3000/rails/info/routes -> todas rotas
+
+.helpers
+  .para cada pasta dentro da view há um arquivo dentro da de helpers.
+  .os helpers fazem referência as views
