@@ -1,6 +1,28 @@
 .routes
-  .localhost:3000/rails/info/routes -> todas rotas
+  .localhost:3000/rails/info/routes -> todas rotas da aplicação
 
 .helpers
   .para cada pasta dentro da view há um arquivo dentro da de helpers.
   .os helpers fazem referência as views
+
+.REST   
+            HTTP/REST    CRUD            SQL
+
+            .POST         Create          INSERT
+            .GET          Retrieve        SELECT
+            .PUT          Update          UPDATE
+            .DELETE       Delete          DELETE
+
+.simular verbos HTTP
+  .postman extension (google chrome)
+
+.rotas  
+  .tipos de rotas
+    .resources :"nome do recurso"
+        .ex recurso: kind (editar, mostrar, deletar, criar)
+    ."verbo" "path (controller/ação)"
+        .ex get 'home/index'
+    .mapeamento
+        .ex get 'home/bemvindo' => 'home#index'
+    .only [:ação, :ação]
+    .except [:ação]
