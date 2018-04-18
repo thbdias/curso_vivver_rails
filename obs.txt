@@ -1,22 +1,39 @@
-.routes
-  .localhost:3000/rails/info/routes -> todas rotas da aplicação
+.scaffold
+  .rails g(acao) scaffold <Modelo> <campo>:<tipo>
+  .todo modelo deve ter a letra maiúscula e no singular
 
-.helpers
+.ORM (object relational mapper)
+  .relação dos objetos com os dados que os mesmos representam
+  .fica no meio traduzindo o que está em ruby para sql e vice-versa
+
+.ActiveRecord é o ORM do Rails
+  .fica no meio do caminho do Ruby com o Sql
+
+.migrations
+  .rake db:create -> cria as tabelas no bd
+  .rake db:migrate -> realiza a migração das tabelas do ruby para o bd
+
+.acesso ao sistema no broser
+  .http://<url-padrão>/nome-do-controller
+
+.o controller recebe a ação inicial do usuário
+  .controller
+	def index 
+    	@kinds = Kind.all 
+	end
+		.Kind = model
+    	.all = select * from
+		.@kinds = variável de instância - para cada pessoa que acessar a página vai ter uma variável dedicada
+		.@kinds = fica disponível no controller e na view
+
+.rails g controller <controller> <action>
+
+.routes
+  .root 'home#index'
+    .página raíz -> controller 'home' ação 'index'
+	.localhost:3000/rails/info/routes -> todas rotas da aplicação
   .para cada pasta dentro da view há um arquivo dentro da de helpers.
   .os helpers fazem referência as views
-
-.REST   
-            HTTP/REST    CRUD            SQL
-
-            .POST         Create          INSERT
-            .GET          Retrieve        SELECT
-            .PUT          Update          UPDATE
-            .DELETE       Delete          DELETE
-
-.simular verbos HTTP
-  .postman extension (google chrome)
-
-.rotas  
   .tipos de rotas
     .resources :"nome do recurso"
         .ex recurso: kind (editar, mostrar, deletar, criar)
@@ -27,8 +44,31 @@
     .only [:ação, :ação]
     .except [:ação]
 
+.simular verbos HTTP
+  .postman extension (google chrome)
 
-.rails console
+.REST   
+            HTTP/REST    CRUD            SQL
+
+            .POST         Create          INSERT
+            .GET          Retrieve        SELECT
+            .PUT          Update          UPDATE
+            .DELETE       Delete          DELETE
+
+
+.erb = embedded ruby
+  .<%  -> o código ruby não é mostrado na tela
+  .<%= -> o código ruby é mostrado na tela
+
+.helper collection_select
+  .seleção/coleção que vão vir do banco de dados
+
+.partial
+  .reaproveitar trechos de páginas
+  .passar variavel para dentro de partial: usar locals { varFora: varDentro}
+
+
+rails console
   .inicializa junto com a aplicação
   .pode-se trabalhar com os models da aplicação
   .
@@ -48,8 +88,27 @@ x.times
   .parecido com for
   .x = uma constante
 
-rake db:drop
+.rake db:drop
   .apagar todo banco de dados
+
+.rake -T
+  .mostra todas as tarefas
+
+.seed
+  .quando se usar o seed, usar 'create' com '!'
+    .Kind.create!(...) => força a gravar no banco de dados
+
+.gem faker
+  .dados falsos
+
+
+
+
+
+
+
+
+
 
 
 
