@@ -1,0 +1,46 @@
+[2018-04-18 12:58:46.266] [sharedprocess] [info] main {"machineId":"211c49974442e40e5014ebeaed76a83566b415b5d1d3cba4791f6cb08f08ca05"}
+[2018-04-18 12:58:47.952] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 12:58:49.141] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-18 12:58:50.060] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 12:58:50.061] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 12:58:50.062] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 12:58:50.093] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-18 12:58:50.098] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-18 12:58:52.116] [sharedprocess] [info] Installing extension: bracket-pair-colorizer
+[2018-04-18 12:58:52.119] [sharedprocess] [info] Installing extension: indent-rainbow
+[2018-04-18 12:58:52.120] [sharedprocess] [info] Installing extension: JavaScriptSnippets
+[2018-04-18 12:58:52.343] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 12:58:53.239] [sharedprocess] [info] Downloaded extension: JavaScriptSnippets
+[2018-04-18 12:58:53.266] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.xabikos.javascriptsnippets-1.6.0: xabikos.javascriptsnippets-1.6.0
+[2018-04-18 12:58:53.268] [sharedprocess] [info] Renamed to /root/.vscode/extensions/xabikos.javascriptsnippets-1.6.0
+[2018-04-18 12:58:53.268] [sharedprocess] [info] Installation completed. xabikos.javascriptsnippets-1.6.0
+[2018-04-18 12:58:53.361] [sharedprocess] [info] Extensions installed successfully: xabikos.javascriptsnippets
+[2018-04-18 12:58:53.508] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 12:58:53.526] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-18 12:58:53.532] [sharedprocess] [info] Downloaded extension: bracket-pair-colorizer
+[2018-04-18 12:58:53.906] [sharedprocess] [info] Downloaded extension: indent-rainbow
+[2018-04-18 12:58:54.468] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.CoenraadS.bracket-pair-colorizer-1.0.37: CoenraadS.bracket-pair-colorizer-1.0.37
+[2018-04-18 12:58:54.468] [sharedprocess] [info] Renamed to /root/.vscode/extensions/CoenraadS.bracket-pair-colorizer-1.0.37
+[2018-04-18 12:58:54.468] [sharedprocess] [info] Installation completed. CoenraadS.bracket-pair-colorizer-1.0.37
+[2018-04-18 12:58:54.521] [sharedprocess] [info] Extensions installed successfully: CoenraadS.bracket-pair-colorizer
+[2018-04-18 12:58:54.665] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 12:58:54.697] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-18 12:58:56.580] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.oderwat.indent-rainbow-7.2.2: oderwat.indent-rainbow-7.2.2
+[2018-04-18 12:58:56.580] [sharedprocess] [info] Renamed to /root/.vscode/extensions/oderwat.indent-rainbow-7.2.2
+[2018-04-18 12:58:56.580] [sharedprocess] [info] Installation completed. oderwat.indent-rainbow-7.2.2
+[2018-04-18 12:58:56.630] [sharedprocess] [info] Extensions installed successfully: oderwat.indent-rainbow
+[2018-04-18 12:58:56.792] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 12:58:56.808] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-18 12:59:26.279] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-04-18 12:59:28.634] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 12:59:28.636] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 12:59:28.648] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 12:59:28.696] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-18 12:59:28.706] [sharedprocess] [info] Scanned system extensions: 69
+[2018-04-18 12:59:31.099] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 13:04:31.157] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 13:09:31.179] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 13:14:31.208] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 13:19:31.241] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 13:24:31.277] [sharedprocess] [info] Scanned user extensions: 23
+[2018-04-18 13:29:31.317] [sharedprocess] [info] Scanned user extensions: 23

@@ -1,0 +1,62 @@
+[2018-04-18 12:58:50.788] [exthost1] [info] extension host started
+[2018-04-18 12:58:50.846] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:58:50.846] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-04-18 12:58:51.096] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:58:51.096] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-04-18 12:58:51.787] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:58:51.787] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-04-18 12:58:51.831] [exthost1] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:58:51.831] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/CoenraadS.bracket-pair-colorizer-1.0.28/out/src/extension
+[2018-04-18 12:58:51.897] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:58:51.897] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/Zignd.html-css-class-completion-1.17.1/out/src/extension
+[2018-04-18 12:58:52.871] [exthost1] [info] ExtensionService#_doActivateExtension alefragnani.Bookmarks {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:58:52.871] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/alefragnani.bookmarks-0.18.2/out/src/extension
+[2018-04-18 12:58:52.978] [exthost1] [info] ExtensionService#_doActivateExtension kevinkyang.auto-comment-blocks {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:58:52.978] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/kevinkyang.auto-comment-blocks-1.0.1/out/src/extension
+[2018-04-18 12:58:53.051] [exthost1] [info] ExtensionService#_doActivateExtension lkytal.pomodoro {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:58:53.051] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/lkytal.pomodoro-1.1.1/out/src/extension
+[2018-04-18 12:58:53.076] [exthost1] [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:58:53.076] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/oderwat.indent-rainbow-0.7.2/out/extension
+[2018-04-18 12:58:53.095] [exthost1] [info] ExtensionService#_doActivateExtension robertohuertasm.vscode-icons {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:58:53.095] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/robertohuertasm.vscode-icons-7.22.0/out/src/
+[2018-04-18 12:58:53.269] [exthost1] [info] ExtensionService#_doActivateExtension vortizhe.simple-ruby-erb {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:58:53.269] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/vortizhe.simple-ruby-erb-0.2.1/ruby_erb.js
+[2018-04-18 12:58:53.274] [exthost1] [info] eager extensions activated
+[2018-04-18 12:58:53.275] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-04-18 12:58:53.275] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2018-04-18 12:58:53.374] [exthost1] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-04-18 12:58:53.374] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/out/extension
+[2018-04-18 12:58:53.434] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-04-18 12:58:53.434] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/out/jsonMain
+[2018-04-18 12:58:53.850] [exthost1] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-04-18 12:58:53.850] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/npm/out/main
+[2018-04-18 12:58:54.077] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2018-04-18 12:58:54.077] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/out/extension
+[2018-04-18 12:59:29.087] [exthost1] [info] extension host started
+[2018-04-18 12:59:29.126] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:59:29.127] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-04-18 12:59:29.204] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:59:29.204] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-04-18 12:59:29.434] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:59:29.434] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-04-18 12:59:29.450] [exthost1] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:59:29.450] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/CoenraadS.bracket-pair-colorizer-1.0.37/out/src/extension
+[2018-04-18 12:59:29.468] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:59:29.468] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/Zignd.html-css-class-completion-1.17.1/out/src/extension
+[2018-04-18 12:59:29.883] [exthost1] [info] ExtensionService#_doActivateExtension alefragnani.Bookmarks {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:59:29.883] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/alefragnani.bookmarks-0.18.2/out/src/extension
+[2018-04-18 12:59:29.895] [exthost1] [info] ExtensionService#_doActivateExtension kevinkyang.auto-comment-blocks {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:59:29.895] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/kevinkyang.auto-comment-blocks-1.0.1/out/src/extension
+[2018-04-18 12:59:29.898] [exthost1] [info] ExtensionService#_doActivateExtension lkytal.pomodoro {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:59:29.898] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/lkytal.pomodoro-1.1.1/out/src/extension
+[2018-04-18 12:59:29.901] [exthost1] [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:59:29.901] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/oderwat.indent-rainbow-7.2.2/out/extension
+[2018-04-18 12:59:29.902] [exthost1] [info] ExtensionService#_doActivateExtension robertohuertasm.vscode-icons {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:59:29.902] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/robertohuertasm.vscode-icons-7.22.0/out/src/
+[2018-04-18 12:59:29.987] [exthost1] [info] ExtensionService#_doActivateExtension vortizhe.simple-ruby-erb {"startup":true,"activationEvent":"*"}
+[2018-04-18 12:59:29.987] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/vortizhe.simple-ruby-erb-0.2.1/ruby_erb.js
+[2018-04-18 12:59:29.990] [exthost1] [info] eager extensions activated
+[2018-04-18 12:59:52.625] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-04-18 12:59:52.625] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2018-04-18 12:59:52.643] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-04-18 12:59:52.643] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/out/jsonMain

@@ -26,3 +26,32 @@
         .ex get 'home/bemvindo' => 'home#index'
     .only [:ação, :ação]
     .except [:ação]
+
+
+.rails console
+  .inicializa junto com a aplicação
+  .pode-se trabalhar com os models da aplicação
+  .
+
+.active record
+  .está para as operações CRUD
+  .framework responsável por fazer o ORM do rails
+  .CREATE -> <model>.new ou <model>.create
+  .READ -> <model>.all, <model>.first, <model>.where, <model>.last
+  .UPDATE -> <model>.find / save
+             <model>.find / update
+             <model>.update_all "field = value"
+  .DELETE -> <model>.find / destroy 
+
+
+x.times
+  .parecido com for
+  .x = uma constante
+
+rake db:drop
+  .apagar todo banco de dados
+
+
+
+
+

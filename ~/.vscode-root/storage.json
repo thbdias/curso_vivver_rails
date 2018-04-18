@@ -58,7 +58,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+W",
+            "label": "Ctrl+Shift+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
@@ -446,5 +446,12 @@
                 "height": 768
             }
         }
+    },
+    "pickerWorkingDir": "/home/crescer/Documentos/others-thiago/curso_vivver_rails",
+    "openedPathsList": {
+        "workspaces": [
+            "/home/crescer/Documentos/others-thiago/curso_vivver_rails/curso_rails"
+        ],
+        "files": []
     }
 }
