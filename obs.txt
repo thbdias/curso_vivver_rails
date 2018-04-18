@@ -101,7 +101,8 @@ x.times
 .gem faker
   .dados falsos
 
-
+.task
+  .rails g task <name> <action> => criar novas tarefas
 
 
 
