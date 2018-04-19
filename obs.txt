@@ -120,5 +120,18 @@ x.times
   .duas formas: translate / localize
 
 
+.testar helpers no rails console
+  .<Controller>.helpers.<helper>
+    .puts ApplicationController.helpers.link_to "teste", "/teste"
+      .a saída é como será no html o comando link_to
+
+
+
+
+
+
+
+
+
 
 
