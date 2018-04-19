@@ -104,8 +104,8 @@ x.times
 .task
   .rails g task <name> <action> => criar novas tarefas
 
-.
-
+.params
+  .elemento mais importante quando há troca/envio de dados
 
 
 
