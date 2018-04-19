@@ -28,6 +28,28 @@
     <%= collection_select(:contact, :kind_id, @kind_options_for_select, :id, :description) %>
   </div>
 
+
+  
+  <% #formulário padrão (form) aceita campos aninhados (fields_for) do model (:address) %>
+  <%= form.fields_for :address do |address_fields| %>
+    <div class="field">
+      <%= form.label :street %>    
+      <%= address_fields.text_field :street %>
+    </div>
+    <div class="field">
+      <%= form.label :city %>    
+      <%= address_fields.text_field :city %>
+    </div>
+    <div class="field">
+      <%= form.label :state %>    
+      <%= address_fields.text_field :state %>
+    </div>
+  <% end %>
+
+
+
+
+
   <div class="field">
     <%= form.label :rmk %>
     <%= form.text_area :rmk, id: :contact_rmk %>

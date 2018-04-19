@@ -107,7 +107,11 @@ x.times
 .params
   .elemento mais importante quando há troca/envio de dados
 
+.nested attributes   
+  .trabalhar com atributos/parametros aninhados/misturar no active record
 
+.fields_for
+  .helper que permite utilizar atributos aninhados dentro do formulario
 
 
 
