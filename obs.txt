@@ -114,7 +114,10 @@ x.times
   .helper que permite utilizar atributos aninhados dentro do formulario
 
 
-
+.i18n => internationalization
+  .configurar idiomas
+  .config/application.rb
+  .duas formas: translate / localize
 
 
 
