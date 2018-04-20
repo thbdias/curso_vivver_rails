@@ -126,6 +126,23 @@ x.times
       .a saída é como será no html o comando link_to
 
 
+.associação has_many
+  .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

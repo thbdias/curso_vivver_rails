@@ -48,6 +48,15 @@
 
 
 
+  <% #formulário padrão (form) aceita campos aninhados (fields_for) do model (:phones) %>
+  <%= form.fields_for :phones do |phones_fields| %>
+    <div class="field">
+      <%= phones_fields.label :phone %>    
+      <%= phones_fields.text_field :phone %>
+    </div>
+  <% end %>
+
+
 
 
   <div class="field">
