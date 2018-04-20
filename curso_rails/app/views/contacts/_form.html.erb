@@ -47,15 +47,18 @@
   <% end %>
 
 
+  <div id="phones">            
+    <% #formulário padrão (form) aceita campos aninhados (fields_for) do model (:phones) %>
+    <%= form.fields_for :phones do |phones_fields| %>       
+        <%= render 'phone_fields', f: phones_fields %>        
+    <% end %>
 
-  <% #formulário padrão (form) aceita campos aninhados (fields_for) do model (:phones) %>
-  <%= form.fields_for :phones do |phones_fields| %>
+    
     <div class="field">
-      <%= phones_fields.label :phone %>    
-      <%= phones_fields.text_field :phone %>
+      <%= form.label :phones, ">" %>
+      <%= link_to_add_association('[Adicionar Telefone]', form, :phones) %>  
     </div>
-  <% end %>
-
+  </div>
 
 
 

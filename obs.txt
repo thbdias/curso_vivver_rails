@@ -127,7 +127,9 @@ x.times
 
 
 .associação has_many
-  .
+
+.gem cocoon
+  .possibilita trabalhar de forma dinamica com formularios aninhados
 
 
 
