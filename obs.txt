@@ -132,7 +132,8 @@ x.times
   .possibilita trabalhar de forma dinamica com formularios aninhados
 
 
-
+.helper cycle
+  .zebrar tabela
 
 
 

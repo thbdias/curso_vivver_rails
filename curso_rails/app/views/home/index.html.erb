@@ -1,17 +1,10 @@
-<h1>Seja Bem Vindo!</h1>
+<div class="basic-grey">    
+    <h1>Seja Bem Vindo!</h1>
 
-<h2><%= t 'hello.friend' %></h2>
-<h2><%= t 'hi' %></h2>
-<h2><%= l Date.today %></h2>
-
-<!-- usando uma helper descrita no arquivo home_helper.rb-->
-<%= mostrar_meu_nome %> 
-<!-- usando uma helper descrita no arquivo application_helper.rb que serve para todas as views-->
-<%= somar_dois(5) %>
-
-<ul>
-    <li> <%= link_to "Tipos", kinds_path %></li>
-    <li> <%= link_to "Contatos", contacts_path %></li>
-    <li> <%= link_to "Endereços", addresses_path %></li>
-    <li> <%= link_to "Telefones", phones_path %></li>
-</ul>
+    <ul>
+        <li> <%= link_to "Tipos", kinds_path %></li>
+        <li> <%= link_to "Contatos", contacts_path %></li>
+        <li> <%= link_to "Endereços", addresses_path %></li>
+        <li> <%= link_to "Telefones", phones_path %></li>
+    </ul>
+</div>
