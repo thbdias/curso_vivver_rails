@@ -135,7 +135,9 @@ x.times
 .helper cycle
   .zebrar tabela
 
-
+.paginação
+  .gem kaminari (mais atual e possui mais coisas que a will_paginate)
+  .will_paginate (mais antiga)
 
 
 
