@@ -146,10 +146,25 @@ x.times
 
 .filters
    .before_action ..., only[...]
-   
 
+.asset pipeline (necessário rever - algumas coisas sem entender ainda)
+  .já vem por padrão no rails 
+  .pega todos assets(css, sass, javascript, images), concatena e minimifica
+  .permite uso de sass, coffeScript, erb
+  .é possível colocar/carregar um asset precompilado para algum controller específico(de acordo com o controller que se está)
 
+.fingerprinting 
+  .estratégia do asset pipeline 
+  .o browser faz cache dos arquivos para aumentar o desempenho, porém as
+    alterações feitas no css por exemplos não são mostradas no braser.
+    Para resolver isso, o fingerprinting coloca um número na frente do 
+    nome do arquivo e quando atualizado esse número se altera e o browser
+    reconhece como novo arquivo.
 
+.execJs (executor js)
+  .rodar código javascript a partir do ruby 
+  .é uma runtime para javascript
+  .o melhor é o node js 
 
 
 
