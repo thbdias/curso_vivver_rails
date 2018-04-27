@@ -7,4 +7,7 @@ class Contact < ApplicationRecord
   #formulario contato pode receber atributos de endereço
   accepts_nested_attributes_for :address 
   accepts_nested_attributes_for :phones, reject_if: :all_blank, allow_destroy: true  #plural pq é has_manny
+
+  validates :name, presence: true, length: { minimum: 3}
+  validates :email, presence: true
 end

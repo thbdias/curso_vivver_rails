@@ -140,7 +140,13 @@ x.times
   .will_paginate (mais antiga)
 
 
+.validações
+  .conhecidas como: active record validations (feito no backend)
+  .possui todos tipos de validações (olhar documentação)
 
+.filters
+   .before_action ..., only[...]
+   
 
 
 
