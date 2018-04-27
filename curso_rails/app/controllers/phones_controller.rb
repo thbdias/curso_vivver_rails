@@ -4,7 +4,11 @@ class PhonesController < ApplicationController
   # GET /phones
   # GET /phones.json
   def index
-    @phones = Phone.all
+    #@phones = Phone.all
+    respond_to do |format| #tratando AJAX      
+        format.html { @phones = Phone.all }
+        format.js #chama arquivo index.js.erb dentro da view   
+    end
   end
 
   # GET /phones/1

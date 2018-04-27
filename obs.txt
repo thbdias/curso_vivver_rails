@@ -166,7 +166,15 @@ x.times
   .é uma runtime para javascript
   .o melhor é o node js 
 
+.ajax
+  .remote: true => ativa a chamada java script
+    .a chamada do controller chega como JS e não como html
+  .respond_to
+    .format.html
+    .format.js
 
+.ciclo rails ajax 
+  browser > controller > js > browser
 
 
 
