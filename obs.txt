@@ -176,7 +176,9 @@ x.times
 .ciclo rails ajax 
   browser > controller > js > browser
 
-
+.usando biblioteca externa
+  . incluir em config/initializers/assests.rb (...precompile += )
+  . incluir em app/views/layouts/app.html.erb ( <%= javascript_include_tag 'notifyjs/notify' %>)
 
 
 
