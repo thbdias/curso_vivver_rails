@@ -180,6 +180,9 @@ x.times
   . incluir em config/initializers/assests.rb (...precompile += )
   . incluir em app/views/layouts/app.html.erb ( <%= javascript_include_tag 'notifyjs/notify' %>)
 
+.conhecendo o Bower 
+  .gerenciador de bibliotecas js que estão na internet (semelhante ao gemfile)
+  .ter o node (instalar usando NVM: https://www.digitalocean.com/community/tutorials/como-instalar-o-node-js-no-ubuntu-16-04-pt) e o git instalado
 
 
 
