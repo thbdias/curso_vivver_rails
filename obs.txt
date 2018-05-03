@@ -205,3 +205,20 @@ x.times
 
 .bootstrap
   .
+
+======================================================================
+            MODULO 2
+======================================================================
+
+.ferramentas
+  .virtualbox
+  .vagrant (trabalhar com virtualbox em linha de comando)
+  .sublime text
+
+
+.configuração do ambiente Rails
+  .apt-get install -y build-essential autoconf bison libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm-dev --allow-unauthenticated
+  .apt-get install git
+  .git config --global user.name '<name>'
+  .git config --global user.email <email>
+  .git config -l
