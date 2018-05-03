@@ -1,3 +1,4 @@
+<br>
 <%= form_with(model: contact, local: true, html: { class: "basic-grey" }) do |form| %>  
 
   <h1>Contacts</h1>
@@ -57,8 +58,8 @@
   </div>
 
   <div class="actions">
-    <%= form.submit "Enviar", class: "button"  %>  
-    <%= link_to t('buttons.back'), contacts_path, class: "button" %>
+    <%= form.submit t('buttons.save'), class: "btn btn-primary"   %>  
+    <%= link_to t('buttons.back'), contacts_path, class: "btn btn-success"  %>
   </div>
 
 
