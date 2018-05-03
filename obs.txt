@@ -189,8 +189,19 @@ x.times
 
 .rake tasks para assets, logs e tmp's 
   .rake -T assets => mostrar quais são as tarefas disponíveis para assets
-  
+  .rake -T log => 
+  .rake -T tmp => arquivos temporários
 
+.segurança
+  .(deu erro)
 
+.templates engine
+  .haml
+  .slim
 
+.form builders 
+  .formtastic
+  .simple_form
 
+.bootstrap
+  .
