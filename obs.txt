@@ -187,7 +187,9 @@ x.times
 .rails-assets 
   .usar o gemfile para gerenciar também as bibliotecas js, ao invés de ter que usar o bower para gerenciar.
 
-
+.rake tasks para assets, logs e tmp's 
+  .rake -T assets => mostrar quais são as tarefas disponíveis para assets
+  
 
 
 
