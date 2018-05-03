@@ -184,7 +184,8 @@ x.times
   .gerenciador de bibliotecas js que estão na internet (semelhante ao gemfile)
   .ter o node (instalar usando NVM: https://www.digitalocean.com/community/tutorials/como-instalar-o-node-js-no-ubuntu-16-04-pt) e o git instalado
 
-
+.rails-assets 
+  .usar o gemfile para gerenciar também as bibliotecas js, ao invés de ter que usar o bower para gerenciar.
 
 
 

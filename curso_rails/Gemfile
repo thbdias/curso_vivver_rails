@@ -12,7 +12,14 @@ gem 'cocoon'
 gem 'jquery-rails'
 gem 'kaminari'
 gem 'kaminari-i18n'
-gem 'bower-rails', '~> 0.10.0'
+#gem 'bower-rails', '~> 0.10.0'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-notifyjs'
+end
+
+gem 'bundler', '>= 1.8.4'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 # Use sqlite3 as the database for Active Record
