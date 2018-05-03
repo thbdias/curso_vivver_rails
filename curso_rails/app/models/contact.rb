@@ -1,7 +1,7 @@
 class Contact < ApplicationRecord
   belongs_to :kind #singular
-  has_one :address #singular
-  has_many :phones #plural
+  has_one :address, dependent: :delete #singular
+  has_many :phones, dependent: :delete_all #plural
 
   #atributos aninhados
   #formulario contato pode receber atributos de endereço
