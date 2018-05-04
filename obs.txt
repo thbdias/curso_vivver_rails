@@ -276,6 +276,9 @@ x.times
   .bootstrap (startbootstrap.com/template-categories/ecommerce/)
 
 .gem devise
+  .autenticação
+
+.gem devise-i18n 
 
 .gem better_errors
   .melhora a exposição dos erros (melhor que o padrão do rails)
