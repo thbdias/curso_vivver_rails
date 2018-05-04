@@ -285,3 +285,8 @@ x.times
 
 .gem foreman
   .facilita comandos grandes, incluindo-os dentro de um arquivo
+
+.tudo em rails em inglês
+
+.active record command
+  .find_or_create_by
