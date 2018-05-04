@@ -1,0 +1,13 @@
+.O sistema será semelhante ao mercado livre, olx, 
+  .administrador
+    .login
+    .verificar estatísticas (qtd usuários, itens mais buscados)
+    .cadastrar novas categorias
+    .moderar perguntas
+  .usuário
+    .cadastrar-se no siste 
+    .inserir anúncio
+    .fazer perguntas em anúncios 
+    .verificar perfil 
+      .alterar dados da conta
+      .responder perguntas 

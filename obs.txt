@@ -266,3 +266,19 @@ x.times
       .indentguides
       .css3
       .sidebarenhancements
+
+======================================================================
+            MODULO 3
+======================================================================
+
+.template
+  .sb admin 2 (github.com/dreamingechoes/bootstrap_sb_admin_base_v2)
+  .bootstrap (startbootstrap.com/template-categories/ecommerce/)
+
+.gem devise
+
+.gem better_errors
+  .melhora a exposição dos erros (melhor que o padrão do rails)
+
+.gem foreman
+  .facilita comandos grandes, incluindo-os dentro de um arquivo
