@@ -222,3 +222,47 @@ x.times
   .git config --global user.name '<name>'
   .git config --global user.email <email>
   .git config -l
+  .não vi o vídeo completo...falta coisas ainda 
+
+.instalando rails
+  .gem install rails <-v 4.2.5 'opicional'>
+  .rails -v 
+  .sudo apt-get install nodejs (não usar esse modo - ver linha 185 deste arquivo)
+  .nodejs --version 
+
+.mysql
+  .sudo apt-get install mysql-client mysql-server libmysqlclient-dev 
+  .acessar mysql pelo terminal:
+    .mysql -u root -p         (u => usuario) (p => password)
+
+.postgresql
+  .sudo apt-get install postgresql postgresql-contrib libpq-dev
+  .criando usuário:
+    .sudo -u postgres createuser -rds vagrant (vagrant => nome usuario)
+  .criando um BD com o mesmo nome do usuário
+    .createdb vagrant 
+
+.gemset
+  .recurso do rvm
+  .gemset é um diretório separado de gem 
+  .criando uma gemset
+    .rvm gemset create udemy (udemy => nome da gemset)
+  .usando uma gemset
+    .rvm 2.3@udemy (2.3 => versão do ruby)
+    .gem list (lista gems de um diretório do gemset)
+
+.sublimeText
+  .command palette ctrl + shift + p 
+  .ctrl + => aumenta letra 
+  .ctrl - => diminui letra 
+  .package control 
+    .plugins
+      .emmets 
+      .sublimeERB
+      .jQuery
+      .bufferscroll (relembrar)
+      .color highlighter
+      .applysyntax
+      .indentguides
+      .css3
+      .sidebarenhancements
