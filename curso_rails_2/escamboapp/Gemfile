@@ -6,12 +6,16 @@ git_source(:github) do |repo_name|
 end
 
 
-#Repository for collecting Locale data for Ruby on Rails I18n as well as other interesting, Rails related I18n stuff http://rails-i18n.org
+# Repository for collecting Locale data for Ruby on Rails I18n as well as other interesting, Rails related I18n stuff http://rails-i18n.org
 gem 'rails-i18n'
-#Flexible authentication solution for Rails with Warden. http://blog.plataformatec.com.br/tag/…
+# Flexible authentication solution for Rails with Warden. http://blog.plataformatec.com.br/tag/…
 gem 'devise'
-#Translations for the devise gem 
+# Translations for the devise gem 
 gem 'devise-i18n'
+# Rails gem of the Bootstrap based admin theme SB Admin 2. http://dreamingechoes.github.io/boots…
+gem 'bootstrap_sb_admin_base_v2'
+#A gem to automate using jQuery with Rails 
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

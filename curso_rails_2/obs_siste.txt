@@ -11,3 +11,9 @@
     .verificar perfil 
       .alterar dados da conta
       .responder perguntas 
+
+o site está dividido em duas parte
+  .parte administrativa 
+    .backOffice - template sb-admin-2
+  .parte cliente
+    .o próprio site
