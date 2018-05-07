@@ -14,9 +14,10 @@ gem 'devise'
 gem 'devise-i18n'
 # Rails gem of the Bootstrap based admin theme SB Admin 2. http://dreamingechoes.github.io/boots…
 gem 'bootstrap_sb_admin_base_v2'
-#A gem to automate using jQuery with Rails 
+# A gem to automate using jQuery with Rails 
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
-
+# bootstrap
+gem 'rails-assets-bootstrap', '3.3.7', source: 'https://rails-assets.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'

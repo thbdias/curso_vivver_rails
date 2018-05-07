@@ -273,7 +273,7 @@ x.times
 
 .template
   .sb admin 2 (github.com/dreamingechoes/bootstrap_sb_admin_base_v2)
-  .bootstrap (startbootstrap.com/template-categories/ecommerce/)
+  .ecommerce (startbootstrap.com/template-categories/ecommerce/)
 
 .gem devise
   .autenticação
@@ -290,3 +290,14 @@ x.times
 
 .active record command
   .find_or_create_by
+
+.gem erd 
+  .gera diagrama de entidade e relacionamento em pdf
+
+.namespace
+  .rails g controller backoffice/dashboard index 
+               ou 
+  .rails g controller backoffice::dashboard index 
+
+.rails destroy controller <nome_controller>
+  .destroi um controller
