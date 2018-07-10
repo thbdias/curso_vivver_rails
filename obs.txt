@@ -273,6 +273,7 @@ x.times
 
 .template
   .sb admin 2 (github.com/dreamingechoes/bootstrap_sb_admin_base_v2)
+        (https://startbootstrap.com/template-overviews/sb-admin-2/)
   .ecommerce (startbootstrap.com/template-categories/ecommerce/)
 
 .gem devise

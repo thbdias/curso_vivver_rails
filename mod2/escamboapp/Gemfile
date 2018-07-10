@@ -7,6 +7,9 @@ end
 
 # I18n
 gem 'rails-i18n'
+# Rails gem of the Bootstrap based admin theme SB Admin 2.
+gem 'bootstrap_sb_admin_base_v2'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 # Flexible authentication solution for Rails with Warden
 gem 'devise'
