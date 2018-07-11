@@ -1,18 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
     <title>Escamboapp</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content=""> 
+
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag    'site', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'bootstrap.min', media: 'all', 'data-turbolinks-track': 'reload' %>
 
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'site', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'bootstrap.bundle.min', 'data-turbolinks-track': 'reload' %>
+    
+
+    <!-- Bootstrap core CSS 
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      -->
+    <!-- Custom styles for this template 
+    <link href="css/shop-homepage.css" rel="stylesheet">
+      -->
+
   </head>
 
   <body>
-    <h1>ESTE LAYOUT É PARA O SITE</h1>
-    <%= yield %>
+      <%= yield %>    
   </body>
+
 </html>
+
