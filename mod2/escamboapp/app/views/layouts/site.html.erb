@@ -31,7 +31,9 @@
   </head>
 
   <body>
-      <%= yield %>    
+      <%= render partial: "layouts/site_shared/navigation"%>
+      <%= yield %> <!-- corpo - site.html.erb -->    
+      <%= render partial: "layouts/site_shared/footer"%>
   </body>
 
 </html>
