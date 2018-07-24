@@ -3,6 +3,7 @@ class Admin < ApplicationRecord
 
   #### ESCOPO
   scope :with_full_access, -> { where(role: :full_access)} # '->' lambda
+  scope :with_restricted_access, -> { where(role: :restricted_access)} # '->' lambda
   
   # ou
   
