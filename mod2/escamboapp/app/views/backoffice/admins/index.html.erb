@@ -23,8 +23,7 @@
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>Nome</th>
-                        <th>E-mail</th>          
+                        <th>Nome</th>                        
                         <th>Tipo de acesso</th>          
                         <th></th>                              
                     </tr>
@@ -33,10 +32,13 @@
                     <% @admins.each do |admin| %>
                         <tr>
                             <td><%= admin.id %></td>
-                            <td><%= admin.name %></td>
-                            <td><%= admin.email %></td> 
+                            <td><%= admin.name %></td>                            
                             <td><%= admin.role_i18n %></td> 
                             <td style="width: 150px">
+
+                                <%= link_to edit_backoffice_send_mail_path(admin), class:"btn btn-info btn-circle", remote: true do %>    
+                                    <i class="fa fa-envelope"></i>
+                                <% end %>
 
                                 <%= link_to  edit_backoffice_admin_path(admin.id), class:"btn btn-primary btn-circle" do %>    
                                     <i class="fa fa-edit"></i>                                                    
@@ -63,3 +65,5 @@
     </div>
     <!-- /.panel-body -->
 </div> <!-- end table-->
+
+<%= render partial: 'backoffice/admins/shared/send_mail' %>
