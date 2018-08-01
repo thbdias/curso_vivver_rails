@@ -18,6 +18,25 @@ namespace :utils do
   end
 
 
+
+  desc "Cria Membros Fake"
+  task generate_members: :environment do
+    puts "Cadastrando o Membros..."
+
+    10.times do
+      Member.create!(        
+        email: Faker::Internet.email,
+        password: "123456",
+        password_confirmation: "123456",
+      )
+    end
+
+    puts "Membros cadastrados com sucesso!"
+  end
+
+
+
+
   desc "Cria Anúncios Fake"
   task generate_ads: :environment do
     puts "Cadastrando o Anúncios..."
