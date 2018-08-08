@@ -18,6 +18,9 @@ gem 'pundit'
 gem 'lerolero_generator'
 # Integration of RubyMoney - Money with Rails
 gem 'money-rails', '~>1'
+# Easy file attachment management for ActiveRecord https://thoughtbot.com/open-source
+gem 'paperclip', '~> 6.0.0'
+gem 'aws-sdk', '~> 2'
 
 source 'https://rails-assets.org' do
   # Bootstrap
